@@ -38,9 +38,9 @@ Configuration in ScriptaHubAgent `sources.json`:
 
 ```json
 {
-  "id": "scripta-books-1",
-  "url": "https://github.com/Axiologic/scriptaBooks-1.git",
-  "ref": "main-or-master"
+  "schemaVersion": 1,
+  "syncIntervalSeconds": 60,
+  "repositories": ["https://github.com/Axiologic/scriptaBooks-1.git"]
 }
 ```
 
