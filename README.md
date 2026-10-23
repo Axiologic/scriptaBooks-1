@@ -1,19 +1,64 @@
 # ScriptaBooks 1
 
-Content-only ScriptaHub repository. The Ploinky ScriptaHub agent owns book pages, readers, navigation and contribution management. This repository contains no application server, workflows or generated landing pages.
+Ten ScriptaHub books, organized for people to browse and edit. Each book has a directory named after its title, with its text, summaries, PDF and artwork next to its metadata. The Ploinky ScriptaHub agent renders the presentation pages and provides the reader, navigation and contribution forms.
 
 ## Layout
 
 ```text
-collection.json                  Version 2 index: book IDs, metadata paths and SHA-256
-books/<stable-book-id>/book.json  Display metadata, edition history and legacy URL aliases
-content/<sha256>.html            Canonical book and summary documents, stored once
-assets/shared/<sha256>.<ext>      Shared images, fonts, PDFs and film content, stored once
+collection.json
+books/
+  metacult/
+    book.json
+    en/
+      full.html
+      summary.html
+      book.pdf
+      Metacult.assets/
+        page-0001-image-01.png
+    assets/
+      cover.webp
+      cover-source.png
+      thumbnail.webp
+    animation/
+      metacult-introduction.shf
+  affective-calculus/
+    book.json
+    en/
+      full.html
+      summary.html
+      book.pdf
+    ro/
+      full.html
+      summary.html
+    assets/
+      ...
+assets/
+  shared/                       Resources reused across different books, when needed
+README.md
+LICENSE
 ```
 
-The original title routes and book IDs remain in each book's `legacyDirectory`. Each `resources` entry maps a legacy book-relative filename to its one physical content/asset file. The agent renders `en/book.html` and other language landing pages from `metadata`; it serves `manifest.json` and `editions.json` from the same record. Every known legacy raw-content path resolves through `resources`, including historical editions. For example, `/books/metacult/bk-96a7b4595ce6486c/en/book.html?lang=en` remains a valid agent URL.
+`collection.json` lists each book by readable title and metadata path, for example `books/metacult/book.json`. Stable book IDs and SHA-256 checksums remain inside metadata for compatibility and verification; they are not directory or content filenames.
 
-Readers receive HTML at its original public URL so relative images, fonts and chapter links continue to work. Repeated images and current/historical files point to the same shared object when their bytes are identical. `provenance.originalSha256` records the input hashes and the source commit; all ten books' raw files retain their original bytes. Existing translation availability is preserved: Metacult currently has an English reader; migration does not invent a Romanian edition.
+## Inside a book
+
+- `book.json`: multilingual display metadata, edition history, source provenance and legacy resource mappings. JSON files are formatted for manual reading.
+- `en/full.html`, `ro/full.html`, etc.: the complete text in each available language.
+- `<language>/summary.html`: the corresponding summary, when available.
+- `<language>/book.pdf`: an available PDF edition.
+- `assets/`: this book's artwork and other common resources, stored once even when several languages or editions use them.
+- `animation/`: film content, when available.
+- `editions/`: distinct historical files, when needed. Identical current and historical files share one physical file through the resource mappings.
+
+Only available translations and formats are present. Metacult has an English reader; this migration does not invent a Romanian edition. Original authored document HTML, images and PDFs retain their bytes.
+
+## Legacy URLs and deduplication
+
+Each `book.json` keeps its stable `id` and original `legacyDirectory`. The `resources` object maps each original filename to a readable repository path. For example, Metacult's old `en/full_content.html` maps to `books/metacult/en/full.html`, and all language copies of the same cover map to `books/metacult/assets/cover.webp`.
+
+The agent serves the original URLs, including `/books/metacult/bk-96a7b4595ce6486c/en/book.html?lang=en`. It renders the landing page from metadata and returns raw content at the legacy URLs so relative links still resolve. Historical aliases and edition metadata are preserved. Application code and generated landing pages are not stored here.
+
+Resources identical across different books belong in `assets/shared/` with descriptive names. The current ten books have no such cross-book files; their repeated assets are shared within each book.
 
 ## Included books
 
@@ -28,13 +73,18 @@ Readers receive HTML at its original public URL so relative images, fonts and ch
 - The Messiah Factory
 - The New Social Contract in the Age of Artificial Intelligence
 
-Imported from Axiologic/ScriptaHub commit `9fade75c2948d9a77a559d156134f76ee0b5d051`, preserving authored text, artwork, PDFs, films, credits and release history. The previous layout used 489 files and 42,494,850 bytes for these book trees. The new shared payload uses 91 physical files and 22,580,365 bytes, plus metadata; 88 generated presentation pages have moved to the renderer.
+Imported from Axiologic/ScriptaHub commit `9fade75c2948d9a77a559d156134f76ee0b5d051`. All ten books retain their original text, artwork, PDFs, films, credits and release history. The previous layout used 489 files and 42,494,850 bytes for these book trees. The deduplicated payload uses 91 physical files and 22,580,365 bytes, plus metadata. The original ScriptaHub repository remains unchanged.
 
 ## Publishing
 
-Write each changed raw object once using its SHA-256 filename, update the book's resource aliases and metadata, then update its metadata checksum in `collection.json` in the same commit. Do not overwrite historical release records or assign a new ID to an existing book. The agent loads the index over HTTP from `main` or `master`, checks book metadata hashes, and fetches content on demand. No clone is needed by the agent.
+1. Edit or add content in the appropriate book directory, keeping distinct historical editions intact.
+2. Update display metadata and resource mappings in `book.json`. Preserve the book ID and legacy aliases.
+3. Update `resourceChecksums` for changed raw files, then the `book.json` checksum in `collection.json`.
+4. Validate with ScriptaHubAgent's `python3 tools/content_repository.py check --root /path/to/scriptaBooks-1` and push content and metadata together.
 
-Configuration in ScriptaHubAgent `sources.json`:
+The migration tools belong to ScriptaHubAgent. Its `migrate` command creates this readable structure from the original published books; `organize` converts the earlier hash-named layout without changing raw bytes. They are intentionally not copied into this content repository.
+
+Agent configuration:
 
 ```json
 {
@@ -44,4 +94,4 @@ Configuration in ScriptaHubAgent `sources.json`:
 }
 ```
 
-The publishing and migration tools live in the ScriptaHubAgent application repository (`tools/content_repository.py`); they are intentionally not copied into this content repository.
+The agent checks `main`, then `master`, over HTTP, verifies book metadata and fetches content on demand. It does not clone this repository.

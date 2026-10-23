@@ -1,1 +1,66 @@
-{"bookCount":10,"books":[{"id":"bk-4357933504204667","path":"books/bk-4357933504204667/book.json","sha256":"37de8815b4474b173f713c2c15911d25eb64b4646f47f72bf97855f23c2e0775"},{"id":"bk-c24944bc03884c97","path":"books/bk-c24944bc03884c97/book.json","sha256":"1ed48ca1d36bf6dac6e6d0a5ad0da68e6df80985ea01ebf67c6943aac2ba9120"},{"id":"bk-7b4afeb316094dcf","path":"books/bk-7b4afeb316094dcf/book.json","sha256":"dfdcc3f58ffddf3b11729226c5b4c8d382571486d8ebd568ef5e29ddec036ec9"},{"id":"bk-608e804b66764b91","path":"books/bk-608e804b66764b91/book.json","sha256":"54cef2913a3cb9b2dfb27e73a74423c2343a459835f515d0bffe9c79af15d272"},{"id":"bk-ca7c2fa6787542c3","path":"books/bk-ca7c2fa6787542c3/book.json","sha256":"3d6d9a5352435aee181d75a7c5c31e08799b0b9c61b93cf61a789c493de3d883"},{"id":"bk-fb2bbd058dab40a6","path":"books/bk-fb2bbd058dab40a6/book.json","sha256":"7b70cfdd8441ce4c9e378bcec9b6abeed903a9505a3efe642395a486a136a1b5"},{"id":"bk-96a7b4595ce6486c","path":"books/bk-96a7b4595ce6486c/book.json","sha256":"998f0b7bcaf5ff5ae7937a5d081a915d3cd008bf88665fb9277d4fec26114820"},{"id":"bk-f9253c0905c84079","path":"books/bk-f9253c0905c84079/book.json","sha256":"f8de22de1c6a1a95d9fe00aebc7861e7fd7ebdef8b080bdf29f956dabcc81c9e"},{"id":"bk-b5557af4177e4e27","path":"books/bk-b5557af4177e4e27/book.json","sha256":"ae7c34df94b6fb019a55d4763d7837a5f256e6cfae76647392ee1b17e7a650d4"},{"id":"bk-d1244dee291d4cbc","path":"books/bk-d1244dee291d4cbc/book.json","sha256":"5317eb451ddec036eaa3dd92d24f2b42534fbfa07dd60d8e816dc254e1de130f"}],"schemaVersion":2}
+{
+  "schemaVersion": 2,
+  "bookCount": 10,
+  "books": [
+    {
+      "title": "A Mind Does Not Fit in a Feed",
+      "id": "bk-4357933504204667",
+      "path": "books/a-mind-does-not-fit-in-a-feed/book.json",
+      "sha256": "40e676e5a583b94b80a5fd22d48c615dbb64146727540fdfbcf7a8b3ae91878e"
+    },
+    {
+      "title": "Affective Calculus",
+      "id": "bk-c24944bc03884c97",
+      "path": "books/affective-calculus/book.json",
+      "sha256": "c6efe780a11f568af8c68db82685b981786d1dc132bfdb71f4ce8ff9e72a4a0a"
+    },
+    {
+      "title": "Anti-Smoothing: Clients, Markets, and Business Model",
+      "id": "bk-7b4afeb316094dcf",
+      "path": "books/anti-smoothing-clients-markets-and-business-model/book.json",
+      "sha256": "00f48f6cd52fda5eedd5a7af6b9e73422b0551d967e06598d93018a4daa04fa5"
+    },
+    {
+      "title": "Capitalism Against Itself",
+      "id": "bk-608e804b66764b91",
+      "path": "books/capitalism-against-itself/book.json",
+      "sha256": "11c4b59d9e1504cda6940e597e9a1062e358ffdb55f781e0317b2f7cd80bb51f"
+    },
+    {
+      "title": "Enthusiasm: The Missing Energy of a Successful Civilization",
+      "id": "bk-ca7c2fa6787542c3",
+      "path": "books/enthusiasm-the-missing-energy-of-a-successful-civilization/book.json",
+      "sha256": "cbeeaa9c91a61263f2757c50140f2183d68729ce9c9c89fec108d8b2e4fe0eba"
+    },
+    {
+      "title": "Incomplete Tribes",
+      "id": "bk-fb2bbd058dab40a6",
+      "path": "books/incomplete-tribes/book.json",
+      "sha256": "487a6046af79a8654b7f0040f057a894bde8daf74d28efce56ef24c9519f4f6d"
+    },
+    {
+      "title": "Metacult",
+      "id": "bk-96a7b4595ce6486c",
+      "path": "books/metacult/book.json",
+      "sha256": "8e15a3ff4fce35a2ff838d79221a6c5492042a90fa341cc57473b5d8becc113f"
+    },
+    {
+      "title": "The Messiah Factory",
+      "id": "bk-f9253c0905c84079",
+      "path": "books/the-messiah-factory/book.json",
+      "sha256": "477a42fb5979b7cade690582372988e1db0eecd04dc680be0176c7dd571a0e17"
+    },
+    {
+      "title": "The New Social Contract in the Age of Artificial Intelligence",
+      "id": "bk-b5557af4177e4e27",
+      "path": "books/the-new-social-contract-in-the-age-of-artificial-intelligence/book.json",
+      "sha256": "f0e69f4401897cc66e734578bf00c1ac463413e418a00d7a35d9f0d55a50f093"
+    },
+    {
+      "title": "Two Ways to Build a World",
+      "id": "bk-d1244dee291d4cbc",
+      "path": "books/two-ways-to-build-a-world/book.json",
+      "sha256": "d5a05ed19f9cbee3eb0c7ccaa5e16fcce2011956819a69f480f82a34e2ff9bcf"
+    }
+  ]
+}
