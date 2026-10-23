@@ -44,4 +44,4 @@ Configuration in ScriptaHubAgent `sources.json`:
 }
 ```
 
-The publishing and migration tools live in the ScriptaHub application repository (`tools/content_repository.py`); they are intentionally not copied into this content repository.
+The publishing and migration tools live in the ScriptaHubAgent application repository (`tools/content_repository.py`); they are intentionally not copied into this content repository.
