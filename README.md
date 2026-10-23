@@ -90,8 +90,8 @@ Agent configuration:
 {
   "schemaVersion": 1,
   "syncIntervalSeconds": 60,
-  "repositories": ["https://github.com/Axiologic/scriptaBooks-1.git"]
+  "repositories": ["https://raw.githubusercontent.com/Axiologic/scriptaBooks-1/master/collection.json"]
 }
 ```
 
-The agent checks `main`, then `master`, over HTTP, verifies book metadata and fetches content on demand. It does not clone this repository.
+The agent reads the configured JSON URL over HTTP, verifies book metadata and fetches content on demand. It does not clone this repository.
