@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 2,
+  "id": "bk-ece0e6c65df749139dc634451a345ab1",
+  "contentDirectory": "books/why-the-holocaust-stands-apart",
+  "legacyDirectory": "books/why-the-holocaust-stands-apart/bk-ece0e6c65df749139dc634451a345ab1",
+  "metadata": {
+    "schemaVersion": 1,
+    "id": "bk-ece0e6c65df749139dc634451a345ab1",
+    "title": {
+      "en": "Why the Holocaust Stands Apart"
+    },
+    "sourceAliases": [
+      "test 9 - 27oct"
+    ],
+    "availableLanguages": [
+      "English"
+    ],
+    "shortDescription": {
+      "en": "Why the Holocaust Stands Apart inquires into why one atrocity holds a singular place in global memory and what that attention asks of every other genocide. It treats the Holocaust's unusual visibility as a living ethical problem, because attention can sharpen a warning and can also leave other victims harder to see. The central questions ask why the Holocaust occupies a unique place in global consciousness, how that status changes what people notice in Rwanda, Cambodia, Bosnia, and elsewhere, and whether such focus helps prevent future genocides or risks overshadowing them. The inquiry is comparative and says it is guided by an AI perspective, setting the murder of six million Jews beside other mass atrocities and looking toward history, empire, law, education, and the public making of memory. It addresses readers concerned with denial, contested recognition, and the teaching of mass violence, while leaving unresolved whether intense attention is a safeguard or a shadow."
+    },
+    "shortDescriptionEditorial": {
+      "basis": "Editorial short description prepared from the English marketing summary of the submitted manuscript.",
+      "createdOn": "2026-10-27",
+      "sentences": 5,
+      "version": 1
+    },
+    "aboutBook": {
+      "en": [
+        "An inquiry into why one atrocity holds a singular place in global memory, and what that attention asks of every other genocide.",
+        "Few events are invoked as often, or with such moral force, as the Holocaust. That visibility can sharpen a warning, and it can also leave other victims harder to see. The book treats this imbalance as a living ethical problem, not as a debate already closed.",
+        "Why does the Holocaust occupy a unique place in global consciousness? How does that status change what people notice in Rwanda, Cambodia, Bosnia, and elsewhere? Can such focus help prevent future genocides, or does it risk overshadowing them? How might remembrance honor all victims of mass violence? The pages begin here and do not offer a shortcut around the difficulty.",
+        "The inquiry is comparative, and it says it is guided by an AI perspective. It sets the murder of six million Jews beside other mass atrocities, then looks toward history, empire, law, education, and the public making of memory. The method keeps the Holocaust in view without isolating it from the wider record of group destruction.",
+        "This is for a general reader who wants history and ethics without sensationalism or a demand for easy certainty. It suits someone already uneasy about denial, contested recognition, and the way societies teach mass violence.",
+        "Whether intense attention is a safeguard or a shadow is not settled before the reading begins. The book invites that tension and leaves the harder judgment ahead.",
+        "If you have wondered why some atrocities become the language of moral warning while others remain contested, denied, or barely taught, this book is written toward that unease."
+      ]
+    },
+    "keywordIds": [
+      "term:e0b319ba45421f052e65",
+      "term:a1c1a3b70c880045148a",
+      "term:740718047b591b5b0488",
+      "term:6807ec2ce4cc10150109",
+      "term:1c44ce6fa8b2fe57d204",
+      "term:89d0b497c50334d7a4be",
+      "term:a7d4d2b57a558d00ec02",
+      "term:c62f19c3053bde252ef5",
+      "term:5e45d1482c1cb99e1aef",
+      "term:3b406ec6bca9c254c481",
+      "term:aa63cc18846656af3360",
+      "term:be6d1faf1a9269620589",
+      "term:ff8e78de09a5d6297bb2",
+      "term:c82d3d4865e41e2a263f",
+      "term:43cf465219ee971efdd9",
+      "term:0d4102ea88ce5c5c9d8f",
+      "term:2e323b616cc648117995",
+      "term:8bb4d4eb588a01c126e2",
+      "term:49a98e0a4430168229e2",
+      "term:e34881c2220c75a45b28"
+    ],
+    "keywords": {
+      "en": [
+        "Holocaust",
+        "genocide",
+        "collective memory",
+        "industrialized genocide",
+        "dehumanization",
+        "genocide prevention",
+        "hierarchy of suffering",
+        "Genocide Convention",
+        "survivor testimony",
+        "genocide denial",
+        "antisemitism",
+        "colonialism",
+        "international inaction",
+        "propaganda",
+        "Holocaust education",
+        "international criminal justice",
+        "Nuremberg Trials",
+        "Final Solution",
+        "racial hierarchy",
+        "state bureaucracy"
+      ]
+    },
+    "editions": {
+      "en": {
+        "book": "en/book.html",
+        "fullContent": "en/full_content.html",
+        "shortContent": "en/short_content.html",
+        "pdf": "en/book.pdf"
+      }
+    }
+  },
+  "history": {
+    "schemaVersion": 1,
+    "bookId": "bk-ece0e6c65df749139dc634451a345ab1",
+    "currentEdition": "edition-1",
+    "editions": [
+      {
+        "id": "edition-1",
+        "number": 1,
+        "label": {
+          "en": "Edition 1"
+        },
+        "changes": {
+          "en": "Initial English edition prepared from the submitted manuscript. The PDF is the English source, not a translation. No cover was supplied."
+        },
+        "pdf": {
+          "en": "en/book.pdf"
+        },
+        "readers": {
+          "en": {
+            "fullContent": "en/full_content.html",
+            "shortContent": "en/short_content.html"
+          }
+        },
+        "publishedAt": "2026-10-27"
+      }
+    ]
+  },
+  "resources": {
+    "en/full_content.html": "books/why-the-holocaust-stands-apart/en/full.html",
+    "en/short_content.html": "books/why-the-holocaust-stands-apart/en/summary.html",
+    "en/marketing-summary.html": "books/why-the-holocaust-stands-apart/en/marketing-summary.html",
+    "en/short-description.html": "books/why-the-holocaust-stands-apart/en/short-description.html",
+    "en/keywords.txt": "books/why-the-holocaust-stands-apart/en/keywords.txt",
+    "en/book.pdf": "books/why-the-holocaust-stands-apart/en/book.pdf",
+    "en/validatebook-layout.css": "books/why-the-holocaust-stands-apart/en/validatebook-layout.css",
+    "en/full.assets/fonts/font-4c700e495d81.ttf": "books/why-the-holocaust-stands-apart/en/full.assets/fonts/font-4c700e495d81.ttf",
+    "en/full.assets/fonts/font-ff8328fa8d77.otf": "books/why-the-holocaust-stands-apart/en/full.assets/fonts/font-ff8328fa8d77.otf"
+  },
+  "resourceChecksums": {
+    "books/why-the-holocaust-stands-apart/en/book.pdf": "1aa536bea8b920bed91f55f26efaa44aa550197aa920db1e386dcdcefdb4fe57",
+    "books/why-the-holocaust-stands-apart/en/full.assets/fonts/font-4c700e495d81.ttf": "99942c439007e9bd2aaca7b681ccf73b7f7a49da930d7da09cd78b650f5c7023",
+    "books/why-the-holocaust-stands-apart/en/full.assets/fonts/font-ff8328fa8d77.otf": "ff8328fa8d7778e3a70db7a017e9a0f5e257cfb60aa3666ecda635a198417414",
+    "books/why-the-holocaust-stands-apart/en/full.html": "610478305399291d5b69960c0c194991b3505dc294e82888c77e59efa1f62757",
+    "books/why-the-holocaust-stands-apart/en/keywords.txt": "9538a5181a8c4c098b8a286c403de63a5145f004a30ba392cd94511414f62036",
+    "books/why-the-holocaust-stands-apart/en/marketing-summary.html": "ac500f37c16c2f73e542a47fc4fb02cf94081e0781f97c305e9a01e41568703c",
+    "books/why-the-holocaust-stands-apart/en/short-description.html": "46a7190c1bc2d04174c3abc0497c677681b3b4e1cd23a8ac81191abda53b145f",
+    "books/why-the-holocaust-stands-apart/en/summary.html": "26eb51550a43ae6bb13148876cc3cced655e243a6fc2e0ca59f36275d71498e9",
+    "books/why-the-holocaust-stands-apart/en/validatebook-layout.css": "7f1bb9978b5b4da974472de23a5f3eee57817a3c1a769456a58c198900bf92ac"
+  },
+  "provenance": {
+    "sourceManuscript": "book.pdf",
+    "sourceLanguage": "en",
+    "primaryLanguage": "en",
+    "contributionTitle": "test 9 - 27oct",
+    "originalSha256": {
+      "book.pdf": "1aa536bea8b920bed91f55f26efaa44aa550197aa920db1e386dcdcefdb4fe57"
+    }
+  }
+}

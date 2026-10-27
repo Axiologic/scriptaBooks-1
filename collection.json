@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "bookCount": 10,
+  "bookCount": 11,
   "books": [
     {
       "title": "A Mind Does Not Fit in a Feed",
@@ -61,6 +61,12 @@
       "id": "bk-d1244dee291d4cbc",
       "path": "books/two-ways-to-build-a-world/book.json",
       "sha256": "d5a05ed19f9cbee3eb0c7ccaa5e16fcce2011956819a69f480f82a34e2ff9bcf"
+    },
+    {
+      "title": "Why the Holocaust Stands Apart",
+      "id": "bk-ece0e6c65df749139dc634451a345ab1",
+      "path": "books/why-the-holocaust-stands-apart/book.json",
+      "sha256": "b4a050eb268e42d8135516259bf9c8c902579dba2b69f6779b351ea2c3061bbd"
     }
   ]
 }
