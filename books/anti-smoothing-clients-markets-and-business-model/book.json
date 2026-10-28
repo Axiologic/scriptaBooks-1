@@ -53,7 +53,7 @@
       "pt": "pt/cover.webp",
       "ro": "ro/cover.webp"
     },
-    "currentEdition": "edition-1",
+    "currentEdition": "edition-2",
     "editions": {
       "de": {
         "book": "de/book.html",
@@ -64,7 +64,7 @@
       "en": {
         "book": "en/book.html",
         "cover": "en/cover.webp",
-        "fullContent": "en/full_content.html",
+        "fullContent": "en/edition-2/full_content.html",
         "pdf": "en/book.pdf",
         "shortContent": "en/short_content.html",
         "sourceCover": "en/cover.png",
@@ -1188,7 +1188,7 @@
   },
   "history": {
     "bookId": "bk-7b4afeb316094dcf",
-    "currentEdition": "edition-1",
+    "currentEdition": "edition-2",
     "editions": [
       {
         "changes": {
@@ -1234,6 +1234,52 @@
           "sha256": "b95f2d4df270ae364d98e9f77bec7d642ffbe7f42fc9ffe410fa3e616b97efc0",
           "version": 1
         }
+      },
+      {
+        "id": "edition-2",
+        "number": 2,
+        "label": {
+          "de": "Ausgabe 2",
+          "en": "Edition 2",
+          "es": "Edición 2",
+          "fr": "Édition 2",
+          "it": "Edizione 2",
+          "pl": "Wydanie 2",
+          "pt": "Edição 2",
+          "ro": "Ediția 2"
+        },
+        "publishedAt": "2026-10-28",
+        "changes": {
+          "en": "Presented the approved investment-decision passage as a readable table. The wording is unchanged. Edition 1 files are retained.",
+          "ro": "Pasajul aprobat despre decizia de investiție este prezentat ca tabel lizibil în cititorul englez. Formularea rămâne neschimbată. Fișierele ediției 1 sunt păstrate."
+        },
+        "covers": {
+          "de": "edition-files/edition-1/covers/de.webp",
+          "en": "edition-files/edition-1/covers/en.webp",
+          "es": "edition-files/edition-1/covers/es.webp",
+          "fr": "edition-files/edition-1/covers/fr.webp",
+          "it": "edition-files/edition-1/covers/it.webp",
+          "pl": "edition-files/edition-1/covers/pl.webp",
+          "pt": "edition-files/edition-1/covers/pt.webp",
+          "ro": "edition-files/edition-1/covers/ro.webp"
+        },
+        "pdf": {
+          "en": "en/book.pdf",
+          "ro": "ro/book.pdf"
+        },
+        "readers": {
+          "en": {
+            "fullContent": "en/edition-2/full_content.html",
+            "shortContent": "en/short_content.html"
+          },
+          "ro": {
+            "fullContent": "ro/full_content.html",
+            "shortContent": "ro/short_content.html"
+          }
+        },
+        "annotationIds": [
+          "a27d59d1-77bb-48f8-8bda-903ddcaf8512"
+        ]
       }
     ],
     "schemaVersion": 1
@@ -1276,7 +1322,8 @@
     "ro/cover.webp": "books/anti-smoothing-clients-markets-and-business-model/assets/cover.webp",
     "ro/full_content.html": "books/anti-smoothing-clients-markets-and-business-model/ro/full.html",
     "ro/short_content.html": "books/anti-smoothing-clients-markets-and-business-model/ro/summary.html",
-    "ro/thumbnail.webp": "books/anti-smoothing-clients-markets-and-business-model/assets/thumbnail.webp"
+    "ro/thumbnail.webp": "books/anti-smoothing-clients-markets-and-business-model/assets/thumbnail.webp",
+    "en/edition-2/full_content.html": "books/anti-smoothing-clients-markets-and-business-model/en/edition-2/full.html"
   },
   "resourceChecksums": {
     "books/anti-smoothing-clients-markets-and-business-model/assets/cover-source.png": "65cb2e90d8e7ab9ba0416dd27d60ec46c35df95610f79349794b2d81240d0c34",
@@ -1287,7 +1334,8 @@
     "books/anti-smoothing-clients-markets-and-business-model/en/summary.html": "6a01eadc22f651bb150ee4db7801aa0e5dccabf1063b5982a28d70876a9c771b",
     "books/anti-smoothing-clients-markets-and-business-model/ro/book.pdf": "9f4020c1398bf13b606265405751327a69654c183fb096097b7a90d39de78afb",
     "books/anti-smoothing-clients-markets-and-business-model/ro/full.html": "04e18e2952815b1369e58ea718367d33be9a361de5bfc2222a0dc94ce876c699",
-    "books/anti-smoothing-clients-markets-and-business-model/ro/summary.html": "1451f23ed8f9be11df968036f200be268b1aa1a131aa2bf636c05bd5a175804f"
+    "books/anti-smoothing-clients-markets-and-business-model/ro/summary.html": "1451f23ed8f9be11df968036f200be268b1aa1a131aa2bf636c05bd5a175804f",
+    "books/anti-smoothing-clients-markets-and-business-model/en/edition-2/full.html": "d4566258ca494316a7fb893aad628ff6567664a7a9c6dcaddbf7766646e34419"
   },
   "provenance": {
     "commit": "9fade75c2948d9a77a559d156134f76ee0b5d051",
