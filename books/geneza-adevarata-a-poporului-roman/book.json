@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 2,
+  "id": "bk-6d78f7747a774485af3a936cccc3cb03",
+  "contentDirectory": "books/geneza-adevarata-a-poporului-roman",
+  "legacyDirectory": "books/geneza-adevarata-a-poporului-roman/bk-6d78f7747a774485af3a936cccc3cb03",
+  "metadata": {
+    "schemaVersion": 1,
+    "id": "bk-6d78f7747a774485af3a936cccc3cb03",
+    "title": {
+      "ro": "Geneza adevărată a poporului român"
+    },
+    "sourceAliases": [
+      "genza adevarata a poporului roman"
+    ],
+    "availableLanguages": [
+      "Română"
+    ],
+    "shortDescription": {
+      "ro": "Cartea urmărește formarea poporului român acolo unde săpătura, genomul și textul nu spun aceeași poveste. Așază această întrebare într-un context în care originea a părut un drept de proprietate, iar două școli și-au disputat cine a fost aici înaintea cui. Întreabă dacă preistoria poate numi poporul, dacă suntem daci sau romani, ce spune o retragere, ce fac vecinii și cuvintele slave și dacă un laborator poate închide disputa. Metoda ei pune alături arheologia, genomul și textul, cu limba lângă ei, și ține la vedere și potrivirea, și golul. Se adresează publicului larg, prins între două școli, și lasă deschis ce mai trebuie întrebat și săpat înainte ca disputa să poată fi închisă."
+    },
+    "shortDescriptionEditorial": {
+      "basis": "Editorial short description prepared from the Romanian marketing summary of the generated manuscript.",
+      "createdOn": "2026-11-12",
+      "sentences": 5,
+      "version": 1
+    },
+    "aboutBook": {
+      "ro": [
+        "O carte scurtă despre formarea poporului român, pentru cine vrea să vadă cum se ceartă săpătura, genomul și textul.",
+        "Vreme de două secole, originea a părut un drept de proprietate asupra țării. Două școli și-au disputat cine a fost aici înaintea cui. Miza este ce se întâmplă cu dovezile când sunt folosite ca să câștige harta.",
+        "Cum se poate vorbi despre formarea poporului român când săpătura, genomul și textul nu spun aceeași poveste? Poate preistoria de dinaintea unui nume să numească acest popor? Suntem daci? Suntem romani? Întrebările stau lângă numele și cetățile pomenite de izvoare, fără ca numele să fie deja un răspuns.",
+        "O frază celebră despre părăsirea provinciei lasă deschis ce spune și ce nu spune o retragere. Vecinii și cuvintele slave pun o întrebare unei limbi care nu se sapă. Poate un laborator să închidă disputa? Ce rămâne de întrebat, și de săpat, dacă niciuna dintre școlile vechi nu câștigă pur și simplu?",
+        "Cartea pune alături trei martori care nu vorbesc aceeași limbă: arheologia, genomul și textul, cu limba lângă ei. Nu inventează studii nepublicate. Metoda ei este să țină la vedere și potrivirea, și golul.",
+        "Este scrisă pentru publicul larg, nu ca raport de șantier. Se adresează cititorului prins între două școli, care vrea mai întâi să vadă ce întrebare poate pune fiecare martor.",
+        "Răspunsul care poate sta în picioare nu este anunțat aici. Rămâne de văzut care frază ține când martorii sunt puși la aceeași masă.",
+        "Până atunci, întrebarea rămâne mai tare decât o școală aleasă din grabă: cum se formează un popor când martorii nu vorbesc aceeași limbă?"
+      ]
+    },
+    "keywordIds": [
+      "term:4b98333691e72257a89f",
+      "term:8a67085fef61e6263e90",
+      "term:907d037bb3d7fb8933e8",
+      "term:bdeffd0ba29aaeb50af5",
+      "term:36e42aaafe8f391c5e9b",
+      "term:dd0c2e2614431031be96",
+      "term:9d4ff3ed42a7be64e224",
+      "term:98a6103bfca8892d6a8f",
+      "term:48ab2dd7bac9265e9159",
+      "term:57cb60f9fe33a7b3e3aa",
+      "term:74d47d63bb37f3ebf666",
+      "term:dc4ae0534b3e7ccf8373",
+      "term:d85b63821972796af724",
+      "term:6f83d6574343c04f6a00",
+      "term:4bf43379480436065077",
+      "term:61db6e8ec9fc817b22ac",
+      "term:625fd8135b23b7ee234e",
+      "term:302414c19343afb2e94d",
+      "term:013e4de821748ccd7c28",
+      "term:34ffe0d450dfb6cf8cd0"
+    ],
+    "keywords": {
+      "ro": [
+        "formarea poporului român",
+        "continuitate",
+        "romanizare",
+        "limba română",
+        "retragerea aureliană",
+        "genomuri antice",
+        "arheologie",
+        "izvoare scrise",
+        "daci",
+        "slavi",
+        "latină populară",
+        "vlahi",
+        "provincia Dacia",
+        "romanitate balcanică",
+        "haplogrup",
+        "avari",
+        "geți",
+        "imigraționism",
+        "sarmați",
+        "substrat traco-dac"
+      ]
+    },
+    "editions": {
+      "ro": {
+        "book": "ro/book.html",
+        "fullContent": "ro/full_content.html",
+        "shortContent": "ro/short_content.html"
+      }
+    }
+  },
+  "history": {
+    "schemaVersion": 1,
+    "bookId": "bk-6d78f7747a774485af3a936cccc3cb03",
+    "currentEdition": "edition-1",
+    "editions": [
+      {
+        "id": "edition-1",
+        "number": 1,
+        "label": {
+          "ro": "Ediția 1"
+        },
+        "changes": {
+          "ro": "Ediție inițială generată în limba română din descrierea editorială. Publicația este HTML-ul integral; nu s-a furnizat manuscris PDF și nu s-a fabricat unul. Nu s-a furnizat copertă."
+        },
+        "readers": {
+          "ro": {
+            "fullContent": "ro/full_content.html",
+            "shortContent": "ro/short_content.html"
+          }
+        },
+        "publishedAt": "2026-11-12"
+      }
+    ]
+  },
+  "resources": {
+    "ro/full_content.html": "books/geneza-adevarata-a-poporului-roman/ro/full.html",
+    "ro/short_content.html": "books/geneza-adevarata-a-poporului-roman/ro/summary.html",
+    "ro/marketing-summary.html": "books/geneza-adevarata-a-poporului-roman/ro/marketing-summary.html",
+    "ro/short-description.html": "books/geneza-adevarata-a-poporului-roman/ro/short-description.html",
+    "ro/keywords.txt": "books/geneza-adevarata-a-poporului-roman/ro/keywords.txt",
+    "ro/layout.css": "books/geneza-adevarata-a-poporului-roman/ro/layout.css"
+  },
+  "resourceChecksums": {
+    "books/geneza-adevarata-a-poporului-roman/ro/full.html": "4288346ffa45ee55d303a8d5c3788aa187640557039ad644ad5e93c489d47433",
+    "books/geneza-adevarata-a-poporului-roman/ro/summary.html": "c0c3be9c1d6fba6331fb7803fcde39e0bf0fd2096bc9e1420ff9a18896dbd02b",
+    "books/geneza-adevarata-a-poporului-roman/ro/marketing-summary.html": "bcb0f16f1953f59c5d7fc62b8b87189d131b580d62a423a01a060aad7f3f89ae",
+    "books/geneza-adevarata-a-poporului-roman/ro/short-description.html": "71e11fd7e672fd11d8410018dfcd63574348488b279ee879904e16b567ce6488",
+    "books/geneza-adevarata-a-poporului-roman/ro/keywords.txt": "61ee4410b8796a43495f6fe0cf0e562a6b6be1d48da6985dbe1c78b7ff9d20f1",
+    "books/geneza-adevarata-a-poporului-roman/ro/layout.css": "7b6e6eb33d55f898f786017c257a14db2858862a01890d85ba23611e98162758"
+  },
+  "provenance": {
+    "sourceKind": "generated",
+    "sourceLanguage": "ro",
+    "primaryLanguage": "ro",
+    "contributionTitle": "genza adevarata a poporului roman",
+    "sourceHashes": []
+  }
+}

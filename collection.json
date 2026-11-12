@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "bookCount": 11,
+  "bookCount": 12,
   "books": [
     {
       "title": "A Mind Does Not Fit in a Feed",
@@ -31,6 +31,12 @@
       "id": "bk-ca7c2fa6787542c3",
       "path": "books/enthusiasm-the-missing-energy-of-a-successful-civilization/book.json",
       "sha256": "cbeeaa9c91a61263f2757c50140f2183d68729ce9c9c89fec108d8b2e4fe0eba"
+    },
+    {
+      "title": "Geneza adevărată a poporului român",
+      "id": "bk-6d78f7747a774485af3a936cccc3cb03",
+      "path": "books/geneza-adevarata-a-poporului-roman/book.json",
+      "sha256": "bc3e42aedaf6aa2e2eb0aab97a7b00fdf47c16730eb27dadcfb5b1ed5f41e31a"
     },
     {
       "title": "Incomplete Tribes",

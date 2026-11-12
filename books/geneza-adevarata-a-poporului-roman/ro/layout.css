@@ -1,0 +1,22 @@
+main[data-reader-content],
+.reader-html-content {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+main[data-reader-content] table,
+.reader-html-content table {
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+main[data-reader-content] th,
+main[data-reader-content] td,
+.reader-html-content th,
+.reader-html-content td {
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  vertical-align: top;
+}
