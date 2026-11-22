@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "bookCount": 12,
+  "bookCount": 13,
   "books": [
     {
       "title": "A Mind Does Not Fit in a Feed",
@@ -49,6 +49,12 @@
       "id": "bk-96a7b4595ce6486c",
       "path": "books/metacult/book.json",
       "sha256": "8e15a3ff4fce35a2ff838d79221a6c5492042a90fa341cc57473b5d8becc113f"
+    },
+    {
+      "title": "Sulla, Cezar și sfârșitul republicii",
+      "id": "bk-5a92d625355e481ba15b878eb05fd42d",
+      "path": "books/sulla-cezar-si-sfarsitul-republicii/book.json",
+      "sha256": "93b683b30395ddc86bddc8d1c3065273fafbe82940d24a9148f3c30195fc3363"
     },
     {
       "title": "The Messiah Factory",

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1800" width="1200" height="1800" role="img" aria-labelledby="coverTitle coverDesc">
+  <title id="coverTitle">Sulla, Cezar și sfârșitul republicii</title>
+  <desc id="coverDesc">SPQR, simbolul republicii, se sparge sub lovitura unei săbii.</desc>
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a120e"/>
+      <stop offset="0.42" stop-color="#2a1614"/>
+      <stop offset="0.72" stop-color="#4a1c1c"/>
+      <stop offset="1" stop-color="#0c0908"/>
+    </linearGradient>
+    <linearGradient id="marble" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3eadc"/>
+      <stop offset="0.45" stop-color="#d9cbb6"/>
+      <stop offset="1" stop-color="#b7a48c"/>
+    </linearGradient>
+    <linearGradient id="blade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8d948f"/>
+      <stop offset="0.45" stop-color="#f4f1ea"/>
+      <stop offset="1" stop-color="#6e655c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1800" fill="url(#night)"/>
+  <rect x="48" y="48" width="1104" height="1704" fill="none" stroke="#c4a574" stroke-width="3"/>
+  <rect x="64" y="64" width="1072" height="1672" fill="none" stroke="#8a7048" stroke-width="1"/>
+  <text x="96" y="188" fill="#f6efe4" font-family="Georgia, 'Times New Roman', serif" font-size="78">Sulla, Cezar și</text>
+  <text x="96" y="292" fill="#f8f3ea" font-family="Georgia, 'Times New Roman', serif" font-size="92">sfârșitul</text>
+  <text x="96" y="392" fill="#f4ead8" font-family="Georgia, 'Times New Roman', serif" font-size="84">republicii</text>
+  <path fill="none" stroke="#c4a574" stroke-width="2" d="M96 428 H520"/>
+  <path fill="#5c4032" d="M150 560 H980 L1040 620 V1360 L960 1440 H220 L150 1360 Z"/>
+  <path fill="url(#marble)" d="M178 588 H952 L1004 640 V1328 L936 1396 H248 L178 1328 Z"/>
+  <path fill="#efe4d4" opacity="0.55" d="M220 640 H900 L940 680 V760 H220 Z"/>
+  <path fill="#6a5344" d="M248 720 H430 V760 H248 Z"/>
+  <path fill="#6a5344" d="M700 720 H900 V760 H700 Z"/>
+  <text x="250" y="1040" fill="#3d291c" font-family="Georgia, 'Times New Roman', serif" font-size="168" font-weight="700">SP</text>
+  <text x="690" y="1108" fill="#3d291c" font-family="Georgia, 'Times New Roman', serif" font-size="168" font-weight="700">QR</text>
+  <path fill="#2a1210" d="M430 700 L560 760 L520 820 L610 980 L540 1120 L640 1320 L560 1396 L470 1280 L390 1100 L450 940 L360 800 Z"/>
+  <path fill="#8d2a28" d="M468 736 L520 784 L492 832 L560 980 L508 1108 L590 1288 L540 1368 L470 1260 L400 1090 L452 948 L372 820 Z"/>
+  <path fill="url(#blade)" d="M868 500 L924 536 L392 1488 L336 1452 Z"/>
+  <path fill="#f7f4ee" d="M888 524 L904 536 L388 1464 L372 1452 Z"/>
+  <path fill="#1c1612" d="M820 470 H980 L992 512 H808 Z"/>
+  <path fill="#c4a574" d="M888 430 H916 V470 H888 Z"/>
+  <circle cx="902" cy="414" r="28" fill="#8a7048"/>
+  <circle cx="902" cy="414" r="12" fill="#1c1612"/>
+  <path fill="#efe4d4" d="M210 1468 L310 1440 L360 1510 L250 1548 Z"/>
+  <path fill="#d7c6ae" d="M760 1476 L900 1508 L860 1588 L720 1552 Z"/>
+  <path fill="#cbb89a" d="M480 1560 L610 1536 L660 1608 L520 1636 Z"/>
+  <path fill="none" stroke="#e8c27a" stroke-width="3" d="M430 700 L610 980 L540 1288"/>
+</svg>

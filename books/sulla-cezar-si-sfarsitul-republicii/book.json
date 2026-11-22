@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 2,
+  "id": "bk-5a92d625355e481ba15b878eb05fd42d",
+  "contentDirectory": "books/sulla-cezar-si-sfarsitul-republicii",
+  "legacyDirectory": "books/sulla-cezar-si-sfarsitul-republicii/bk-5a92d625355e481ba15b878eb05fd42d",
+  "metadata": {
+    "schemaVersion": 1,
+    "id": "bk-5a92d625355e481ba15b878eb05fd42d",
+    "title": {
+      "ro": "Sulla, Cezar și sfârșitul republicii"
+    },
+    "subtitle": {
+      "ro": "O istorie a dictaturii care a pretins că repară Roma și a lăsat drumul deschis către un alt stăpân."
+    },
+    "sourceAliases": [
+      "Sulla, Cezar și sfârșitul republicii"
+    ],
+    "availableLanguages": [
+      "Română"
+    ],
+    "shortDescription": {
+      "ro": "Cartea îl așază pe Sulla, numit uneori Sylla, alături de Gaius Iulius Caesar, într-o istorie despre Roma și despre o dictatură pusă în legătură cu republica. Deschiderea o prezintă ca o istorie, iar capitolele promit poveste, cronologie și o deosebire explicită între fapt, relatare antică și interpretare. Contextul este o republică fără rege și fără frâu, cu consuli aleși pentru un an, un Senat, tribuni și o dictatură veche de criză, pe fondul războiului cu aliații și al comenzii împotriva lui Mithridates. Întrebările centrale rămân deschise: dacă dictatura lui Sulla a marcat sfârșitul republicii romane și în ce fel l-a învățat pe Cezar, ce a inspirat acea dictatură și ce poate întreba un cititor de azi despre puterea de criză, armata ca public politic, teroarea legală și restaurarea. Tensiunile urmărite țin de legea discutată într-o încăpere în timp ce violența îi fixează înțelesul dincolo de ușă, de rivalitatea născută dintr-o victorie comună și de disputa modernă rămasă deschisă între apărătorul guvernării senatoriale și inovator. Comparația dintre cele două dictaturi privește temeiul declarat, dictatura, violența de după victorie, Senatul și tribunii, iar capitolul despre izvoare își declară metoda de a deosebi faptul susținut, cifra disputată și scena atribuită."
+    },
+    "shortDescriptionEditorial": {
+      "basis": "Editorial short description prepared from the accepted Romanian short-description resource of the generated manuscript.",
+      "createdOn": "2026-11-20",
+      "sentences": 6,
+      "version": 1
+    },
+    "aboutBook": {
+      "ro": [
+        "O istorie care îi pune pe Sulla și pe Cezar în aceeași întrebare și începe dincolo de zid, nu cu o sentință.",
+        "La 2 noiembrie 82, senatorii erau chemați în templul Bellonei, dincolo de pomerium, în timp ce soldații lui Sulla începeau să ucidă prizonieri samniți. Sulla stătea în fața orașului cu o armată, iar republica a venit la el dincolo de hotarul sacru. Miza anunțată nu este o biografie izolată, ci soarta unei republici fără rege, cu doi consuli anuali. Un consul putea fi umilit în for, iar un general cu legiuni putea socoti că umilința este un motiv de război. A fi trecut pe o listă însemna condamnare fără proces.",
+        "Cartea întreabă dacă dictatura lui Sulla a marcat sfârșitul republicii și ce anume l-a putut învăța pe Cezar. În 88, comanda împotriva lui Mithridates i-a fost mutată lui Marius, în timp ce Sulla se afla cu armata la Nola. Ce rămâne dintr-o victorie când învingătorul pleacă spre Orient? De ce plecarea nu a salvat republica, dacă omul a putut merge prin for fără garda unui stăpân? Cum se aseamănă gestul din 49 cu marșurile din 88 și din 83?",
+        "Narațiunea vine cu cronologie și cu termeni pentru elevi, iar faptul, relatarea antică și interpretarea sunt ținute deosebite. Nu înlocuiește pe Plutarh, Appian, Suetoniu, Salustiu sau Cicero și nu născocește citate. Optzeci de mii rămâne estimare antică, nu recensământ. Fugile lui Marius sunt literatură de vieți, nu proces-verbal. Epitaful este relatarea lui Plutarh, nu o piatră văzută, iar comentariul lui Cezar este pledoaria învingătorului, nu sentință.",
+        "Se adresează celui care vrea o poveste, elevului și specialistului interesați de republica romană târzie. Poate urmări legile învingătorului, de la Senat la veterani, sau drumul excepției de la Pompei la Galia. Primește întrebări deosebite, nu o listă de memorat. Cine vrea anii găsește locul faptelor în timp. Cine vrea să verifice începe cu cei cinci autori.",
+        "Sulla, născut în jurul anului 138, și Marius, om nou, s-au legat în războiul cu Iugurtha, încheiat în 105. Un consul și-a întors armata împotriva Romei. Printre copiii absenței era și Cezar. La Poarta Colină, la 1 noiembrie 82, războiul din Italia s-a închis. Legea Valeria l-a făcut dictator pentru scrierea legilor și reașezarea republicii. În 80 a fost consul și a murit în 78 ca persoană privată. Cezar, legat de Marius prin Iulia și de Cinna prin Cornelia, a refuzat despărțirea. În ianuarie 49 a trecut Rubiconul. La începutul lui 44 a fost numit dictator fără termen și a murit la Idele lui martie. Comparația nu alege un erou.",
+        "Între Bellona și Rubicon, răspunsul nu este cheltuit. Rămâne de citit dacă o plecare a închis ceva, sau dacă întrebarea trece, neîncheiată, dintr-un nume în altul."
+      ]
+    },
+    "keywordIds": [
+      "term:5f7b916d1220a77ed62c",
+      "term:5c0065e978138ff745de",
+      "term:e4afd032fe24e54900bb",
+      "term:91e96b5bf46752fb17b2",
+      "term:82a57287f733b7b667e1",
+      "term:823b1c85b19fcba54bea",
+      "term:9e2b91164f4b2ae576e2",
+      "term:5a9e74526bd387a47588",
+      "term:507cbf3d7adcb02764f5",
+      "term:b81f390a02b596656ccc",
+      "term:6ef2f37b725c2eeb9f39",
+      "term:6d34a594fef5d534d7ab",
+      "term:e520974c7e054f8e90c8",
+      "term:62c12d104b0c5017fd34",
+      "term:b21961a6350b27f86174",
+      "term:d7dd7b75c21b50799535",
+      "term:03952291c71adf12528f",
+      "term:a4bc4623d2e77c86c15d",
+      "term:1357459ee6e6465aa490",
+      "term:ffeb4b173d7564a34427"
+    ],
+    "keywords": {
+      "ro": [
+        "sfârșitul republicii romane",
+        "dictatura lui Sulla",
+        "precedentul lui Sulla",
+        "marșul asupra Romei",
+        "trecerea Rubiconului",
+        "proscripții",
+        "clemența lui Cezar",
+        "abdicarea lui Sulla",
+        "refuzul plecării",
+        "dictator fără termen",
+        "restaurarea republicii",
+        "armata în politică",
+        "tribunatul plebei",
+        "Senatul roman",
+        "război civil",
+        "legea Valeria",
+        "comanda Galiei",
+        "două legalități",
+        "Idurile lui martie",
+        "rivalitatea dintre Marius și Sulla"
+      ]
+    },
+    "coverUrl": {
+      "ro": "ro/cover.svg"
+    },
+    "thumbnailUrl": {
+      "ro": "ro/cover.svg"
+    },
+    "editions": {
+      "ro": {
+        "book": "ro/book.html",
+        "cover": "ro/cover.svg",
+        "thumbnail": "ro/thumbnail.svg",
+        "fullContent": "ro/full_content.html",
+        "shortContent": "ro/short_content.html"
+      }
+    }
+  },
+  "history": {
+    "schemaVersion": 1,
+    "bookId": "bk-5a92d625355e481ba15b878eb05fd42d",
+    "currentEdition": "edition-1",
+    "editions": [
+      {
+        "id": "edition-1",
+        "number": 1,
+        "label": {
+          "ro": "Ediția 1"
+        },
+        "changes": {
+          "ro": "Ediție inițială generată în limba română din descrierea editorială. Publicația este HTML-ul integral; nu s-a furnizat manuscris PDF și nu s-a fabricat unul. Coperta a fost generată ca SVG."
+        },
+        "covers": {
+          "ro": "ro/cover.svg"
+        },
+        "readers": {
+          "ro": {
+            "fullContent": "ro/full_content.html",
+            "shortContent": "ro/short_content.html"
+          }
+        },
+        "publishedAt": "2026-11-20"
+      }
+    ]
+  },
+  "resources": {
+    "ro/full_content.html": "books/sulla-cezar-si-sfarsitul-republicii/ro/full.html",
+    "ro/short_content.html": "books/sulla-cezar-si-sfarsitul-republicii/ro/summary.html",
+    "ro/marketing-summary.html": "books/sulla-cezar-si-sfarsitul-republicii/ro/marketing-summary.html",
+    "ro/short-description.html": "books/sulla-cezar-si-sfarsitul-republicii/ro/short-description.html",
+    "ro/keywords.txt": "books/sulla-cezar-si-sfarsitul-republicii/ro/keywords.txt",
+    "ro/cover.svg": "books/sulla-cezar-si-sfarsitul-republicii/assets/cover.svg",
+    "ro/thumbnail.svg": "books/sulla-cezar-si-sfarsitul-republicii/assets/cover.svg"
+  },
+  "resourceChecksums": {
+    "books/sulla-cezar-si-sfarsitul-republicii/ro/full.html": "29bebf16b01cd9abb5423e2b4dc248a7daf60a204006dff9d84a621d5c703529",
+    "books/sulla-cezar-si-sfarsitul-republicii/ro/summary.html": "c03f33e65e7ea825d27f83b1071e80ed7c3276d9345901579dd086cabcb8481c",
+    "books/sulla-cezar-si-sfarsitul-republicii/ro/marketing-summary.html": "d36e80996c3314843ca2e254cbaac4d4e0e8e631e8b2baff82190f6b3df6a48e",
+    "books/sulla-cezar-si-sfarsitul-republicii/ro/short-description.html": "051044fa008603e90c114ac8e660850d7ba4515af27e1a0f660b0b1ae97be142",
+    "books/sulla-cezar-si-sfarsitul-republicii/ro/keywords.txt": "c16a660f88b117d8386147e532f7969128c82d01e0ed79e66dded8c89d490294",
+    "books/sulla-cezar-si-sfarsitul-republicii/assets/cover.svg": "ba6815239aad55cb1ae6017935daef71e5fb184b6cd1481fe3f1d3e04aae69d3"
+  },
+  "provenance": {
+    "sourceKind": "generated",
+    "sourceLanguage": "ro",
+    "primaryLanguage": "ro",
+    "contributionTitle": "Sulla, Cezar și sfârșitul republicii",
+    "sourceHashes": []
+  }
+}
